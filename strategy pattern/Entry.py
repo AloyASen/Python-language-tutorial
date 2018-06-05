@@ -5,6 +5,7 @@ Strategy lets the algorithm vary independently from
 the CLIENTS that use it 
 
 """
+#import abc
 class Context:
     """
     Define a interface of interest to clients

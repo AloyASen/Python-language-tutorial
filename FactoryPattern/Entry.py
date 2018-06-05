@@ -41,7 +41,7 @@ class Product(metaclass=abc.ABCMeta):
     @abc.abstractmethod
     def interface(self):
         pass
-class ConcreteProduct2(Product):
+class ConcreteProduct1(Product):
     """
     Implement the product interface
     """
